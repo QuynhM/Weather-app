@@ -1,11 +1,17 @@
 #container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 100vh;
+    font-family:"DM Sans", sans-serif;
+    margin: 4rem auto;
+    padding: 2rem 3rem 3rem;
+    width: 300px;
+    height: auto;
+    box-shadow: 5px 5px 0px 0px rgba(24, 140, 105, 0.1);
+    border: 2px solid #ccc;
+    text-align: center;
   }
   
+  h1 {
+    color: rgb(24, 140, 105)
+  }
   form {
     margin-bottom: 20px;
   }
@@ -16,6 +22,10 @@
   
   button {
     padding: 8px 12px;
+  }
+  button:hover{
+    background-color: white;
+    color: rgb(24, 140, 105);
   }
 
   #info {

@@ -55,6 +55,7 @@ function App() {
   return (
     <>
       <div id="container">
+        <h1>Weather App</h1>
         <form onSubmit={handleSubmit}>
           <input
             type="text"
